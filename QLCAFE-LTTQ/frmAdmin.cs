@@ -297,6 +297,7 @@ namespace QLCAFE_LTTQ
             if(FoodCategoryDAO.Instance.InsertFoodCategory(name))
             {
                 MessageBox.Show("Thêm danh mục thành công ");
+                tpThucAn.Refresh();
                 LoadListCategory();
                 if (insertFoodCategory != null)
                     insertFoodCategory(this, new EventArgs());
@@ -314,6 +315,7 @@ namespace QLCAFE_LTTQ
             if (FoodCategoryDAO.Instance.UpdateFoodCategory(name,id))
             {
                 MessageBox.Show("Sửa danh mục thành công ");
+                tpThucAn.Refresh();
                 LoadListCategory();
                 if (updateFoodCategory != null)
                     updateFoodCategory(this, new EventArgs());
@@ -330,6 +332,7 @@ namespace QLCAFE_LTTQ
             if (FoodCategoryDAO.Instance.DeleteFoodCategory(idCategory)) 
             {
                 MessageBox.Show("Xóa danh mục thành công ");
+                tpThucAn.Refresh();
                 LoadListCategory();
                 LoadListFood();
                 if (deleteFoodCategory != null)

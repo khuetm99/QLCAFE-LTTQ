@@ -29,18 +29,6 @@
         private void InitializeComponent()
         {
             this.tbAdmin = new System.Windows.Forms.TabControl();
-            this.tbBan = new System.Windows.Forms.TabPage();
-            this.btnXemBan = new System.Windows.Forms.Button();
-            this.btnSuaBan = new System.Windows.Forms.Button();
-            this.btnXoaBan = new System.Windows.Forms.Button();
-            this.btnThemBan = new System.Windows.Forms.Button();
-            this.cbTableStatus = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtTenBan = new System.Windows.Forms.TextBox();
-            this.lbTenBan = new System.Windows.Forms.Label();
-            this.txtIDBan = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dgvBan = new System.Windows.Forms.DataGridView();
             this.tpDoanhThu = new System.Windows.Forms.TabPage();
             this.btnThongKe = new System.Windows.Forms.Button();
             this.dtpToDate = new System.Windows.Forms.DateTimePicker();
@@ -72,6 +60,18 @@
             this.txtIDDanhMuc = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvDanhMuc = new System.Windows.Forms.DataGridView();
+            this.tbBan = new System.Windows.Forms.TabPage();
+            this.btnXemBan = new System.Windows.Forms.Button();
+            this.btnSuaBan = new System.Windows.Forms.Button();
+            this.btnXoaBan = new System.Windows.Forms.Button();
+            this.btnThemBan = new System.Windows.Forms.Button();
+            this.cbTableStatus = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtTenBan = new System.Windows.Forms.TextBox();
+            this.lbTenBan = new System.Windows.Forms.Label();
+            this.txtIDBan = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dgvBan = new System.Windows.Forms.DataGridView();
             this.tpTaiKhoan = new System.Windows.Forms.TabPage();
             this.btnDatLaiMK = new System.Windows.Forms.Button();
             this.btnXemTK = new System.Windows.Forms.Button();
@@ -86,8 +86,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.dgvTaiKhoan = new System.Windows.Forms.DataGridView();
             this.tbAdmin.SuspendLayout();
-            this.tbBan.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBan)).BeginInit();
             this.tpDoanhThu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBill)).BeginInit();
             this.tpThucAn.SuspendLayout();
@@ -95,6 +93,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvThucAn)).BeginInit();
             this.tpDanhMuc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).BeginInit();
+            this.tbBan.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBan)).BeginInit();
             this.tpTaiKhoan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTaiKhoan)).BeginInit();
             this.SuspendLayout();
@@ -111,150 +111,6 @@
             this.tbAdmin.SelectedIndex = 0;
             this.tbAdmin.Size = new System.Drawing.Size(1033, 588);
             this.tbAdmin.TabIndex = 0;
-            // 
-            // tbBan
-            // 
-            this.tbBan.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources.pngtree_watercolor_watercolor_gradient_blue_hand_painted_image_7849;
-            this.tbBan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tbBan.Controls.Add(this.btnXemBan);
-            this.tbBan.Controls.Add(this.btnSuaBan);
-            this.tbBan.Controls.Add(this.btnXoaBan);
-            this.tbBan.Controls.Add(this.btnThemBan);
-            this.tbBan.Controls.Add(this.cbTableStatus);
-            this.tbBan.Controls.Add(this.label5);
-            this.tbBan.Controls.Add(this.txtTenBan);
-            this.tbBan.Controls.Add(this.lbTenBan);
-            this.tbBan.Controls.Add(this.txtIDBan);
-            this.tbBan.Controls.Add(this.label4);
-            this.tbBan.Controls.Add(this.dgvBan);
-            this.tbBan.Location = new System.Drawing.Point(4, 25);
-            this.tbBan.Name = "tbBan";
-            this.tbBan.Padding = new System.Windows.Forms.Padding(3);
-            this.tbBan.Size = new System.Drawing.Size(1025, 559);
-            this.tbBan.TabIndex = 3;
-            this.tbBan.Text = "Bàn Ăn";
-            this.tbBan.UseVisualStyleBackColor = true;
-            // 
-            // btnXemBan
-            // 
-            this.btnXemBan.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnXemBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemBan.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnXemBan.Location = new System.Drawing.Point(429, 37);
-            this.btnXemBan.Name = "btnXemBan";
-            this.btnXemBan.Size = new System.Drawing.Size(108, 74);
-            this.btnXemBan.TabIndex = 42;
-            this.btnXemBan.Text = "Xem";
-            this.btnXemBan.UseVisualStyleBackColor = false;
-            this.btnXemBan.Click += new System.EventHandler(this.btnXemBan_Click);
-            // 
-            // btnSuaBan
-            // 
-            this.btnSuaBan.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnSuaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaBan.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnSuaBan.Location = new System.Drawing.Point(293, 37);
-            this.btnSuaBan.Name = "btnSuaBan";
-            this.btnSuaBan.Size = new System.Drawing.Size(108, 74);
-            this.btnSuaBan.TabIndex = 41;
-            this.btnSuaBan.Text = "Sửa";
-            this.btnSuaBan.UseVisualStyleBackColor = false;
-            this.btnSuaBan.Click += new System.EventHandler(this.btnSuaBan_Click);
-            // 
-            // btnXoaBan
-            // 
-            this.btnXoaBan.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnXoaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaBan.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnXoaBan.Location = new System.Drawing.Point(152, 37);
-            this.btnXoaBan.Name = "btnXoaBan";
-            this.btnXoaBan.Size = new System.Drawing.Size(108, 74);
-            this.btnXoaBan.TabIndex = 40;
-            this.btnXoaBan.Text = "Xóa";
-            this.btnXoaBan.UseVisualStyleBackColor = false;
-            this.btnXoaBan.Click += new System.EventHandler(this.btnXoaBan_Click);
-            // 
-            // btnThemBan
-            // 
-            this.btnThemBan.BackColor = System.Drawing.Color.SeaGreen;
-            this.btnThemBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThemBan.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnThemBan.Location = new System.Drawing.Point(16, 37);
-            this.btnThemBan.Name = "btnThemBan";
-            this.btnThemBan.Size = new System.Drawing.Size(108, 74);
-            this.btnThemBan.TabIndex = 39;
-            this.btnThemBan.Text = "Thêm";
-            this.btnThemBan.UseVisualStyleBackColor = false;
-            this.btnThemBan.Click += new System.EventHandler(this.btnThemBan_Click);
-            // 
-            // cbTableStatus
-            // 
-            this.cbTableStatus.FormattingEnabled = true;
-            this.cbTableStatus.Location = new System.Drawing.Point(685, 319);
-            this.cbTableStatus.Name = "cbTableStatus";
-            this.cbTableStatus.Size = new System.Drawing.Size(302, 24);
-            this.cbTableStatus.TabIndex = 38;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label5.Location = new System.Drawing.Point(555, 317);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 24);
-            this.label5.TabIndex = 37;
-            this.label5.Text = "Trạng Thái:";
-            // 
-            // txtTenBan
-            // 
-            this.txtTenBan.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenBan.Location = new System.Drawing.Point(685, 251);
-            this.txtTenBan.Name = "txtTenBan";
-            this.txtTenBan.Size = new System.Drawing.Size(303, 27);
-            this.txtTenBan.TabIndex = 36;
-            // 
-            // lbTenBan
-            // 
-            this.lbTenBan.AutoSize = true;
-            this.lbTenBan.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTenBan.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lbTenBan.Location = new System.Drawing.Point(555, 250);
-            this.lbTenBan.Name = "lbTenBan";
-            this.lbTenBan.Size = new System.Drawing.Size(96, 24);
-            this.lbTenBan.TabIndex = 35;
-            this.lbTenBan.Text = "Tên Bàn:";
-            // 
-            // txtIDBan
-            // 
-            this.txtIDBan.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDBan.Location = new System.Drawing.Point(685, 184);
-            this.txtIDBan.Name = "txtIDBan";
-            this.txtIDBan.ReadOnly = true;
-            this.txtIDBan.Size = new System.Drawing.Size(303, 27);
-            this.txtIDBan.TabIndex = 34;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label4.Location = new System.Drawing.Point(555, 182);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 24);
-            this.label4.TabIndex = 33;
-            this.label4.Text = "ID:";
-            // 
-            // dgvBan
-            // 
-            this.dgvBan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBan.Location = new System.Drawing.Point(16, 117);
-            this.dgvBan.Name = "dgvBan";
-            this.dgvBan.RowHeadersWidth = 51;
-            this.dgvBan.RowTemplate.Height = 24;
-            this.dgvBan.Size = new System.Drawing.Size(521, 418);
-            this.dgvBan.TabIndex = 32;
             // 
             // tpDoanhThu
             // 
@@ -340,7 +196,7 @@
             // 
             // nmPriceFood
             // 
-            this.nmPriceFood.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nmPriceFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmPriceFood.Increment = new decimal(new int[] {
             10000,
             0,
@@ -353,7 +209,7 @@
             0,
             0});
             this.nmPriceFood.Name = "nmPriceFood";
-            this.nmPriceFood.Size = new System.Drawing.Size(302, 28);
+            this.nmPriceFood.Size = new System.Drawing.Size(302, 27);
             this.nmPriceFood.TabIndex = 34;
             // 
             // btnTimFood
@@ -371,7 +227,7 @@
             // 
             // txtTimFood
             // 
-            this.txtTimFood.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTimFood.Location = new System.Drawing.Point(550, 51);
             this.txtTimFood.Name = "txtTimFood";
             this.txtTimFood.Size = new System.Drawing.Size(324, 27);
@@ -431,11 +287,11 @@
             // 
             // cbFoodCategory
             // 
-            this.cbFoodCategory.Font = new System.Drawing.Font("Arial Narrow", 10.2F);
+            this.cbFoodCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbFoodCategory.FormattingEnabled = true;
             this.cbFoodCategory.Location = new System.Drawing.Point(686, 260);
             this.cbFoodCategory.Name = "cbFoodCategory";
-            this.cbFoodCategory.Size = new System.Drawing.Size(302, 30);
+            this.cbFoodCategory.Size = new System.Drawing.Size(302, 28);
             this.cbFoodCategory.TabIndex = 27;
             // 
             // lbGia
@@ -462,7 +318,7 @@
             // 
             // txtFoodName
             // 
-            this.txtFoodName.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFoodName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFoodName.Location = new System.Drawing.Point(685, 199);
             this.txtFoodName.Name = "txtFoodName";
             this.txtFoodName.Size = new System.Drawing.Size(303, 27);
@@ -481,7 +337,7 @@
             // 
             // txtIDFood
             // 
-            this.txtIDFood.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIDFood.Location = new System.Drawing.Point(685, 146);
             this.txtIDFood.Name = "txtIDFood";
             this.txtIDFood.ReadOnly = true;
@@ -586,7 +442,7 @@
             // 
             // txtTenDanhMuc
             // 
-            this.txtTenDanhMuc.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenDanhMuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenDanhMuc.Location = new System.Drawing.Point(649, 276);
             this.txtTenDanhMuc.Name = "txtTenDanhMuc";
             this.txtTenDanhMuc.Size = new System.Drawing.Size(303, 27);
@@ -605,7 +461,7 @@
             // 
             // txtIDDanhMuc
             // 
-            this.txtIDDanhMuc.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDDanhMuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIDDanhMuc.Location = new System.Drawing.Point(648, 208);
             this.txtIDDanhMuc.Name = "txtIDDanhMuc";
             this.txtIDDanhMuc.ReadOnly = true;
@@ -633,6 +489,151 @@
             this.dgvDanhMuc.RowTemplate.Height = 24;
             this.dgvDanhMuc.Size = new System.Drawing.Size(503, 429);
             this.dgvDanhMuc.TabIndex = 21;
+            // 
+            // tbBan
+            // 
+            this.tbBan.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources.pngtree_watercolor_watercolor_gradient_blue_hand_painted_image_7849;
+            this.tbBan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tbBan.Controls.Add(this.btnXemBan);
+            this.tbBan.Controls.Add(this.btnSuaBan);
+            this.tbBan.Controls.Add(this.btnXoaBan);
+            this.tbBan.Controls.Add(this.btnThemBan);
+            this.tbBan.Controls.Add(this.cbTableStatus);
+            this.tbBan.Controls.Add(this.label5);
+            this.tbBan.Controls.Add(this.txtTenBan);
+            this.tbBan.Controls.Add(this.lbTenBan);
+            this.tbBan.Controls.Add(this.txtIDBan);
+            this.tbBan.Controls.Add(this.label4);
+            this.tbBan.Controls.Add(this.dgvBan);
+            this.tbBan.Location = new System.Drawing.Point(4, 25);
+            this.tbBan.Name = "tbBan";
+            this.tbBan.Padding = new System.Windows.Forms.Padding(3);
+            this.tbBan.Size = new System.Drawing.Size(1025, 559);
+            this.tbBan.TabIndex = 3;
+            this.tbBan.Text = "Bàn Ăn";
+            this.tbBan.UseVisualStyleBackColor = true;
+            // 
+            // btnXemBan
+            // 
+            this.btnXemBan.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnXemBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemBan.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnXemBan.Location = new System.Drawing.Point(429, 37);
+            this.btnXemBan.Name = "btnXemBan";
+            this.btnXemBan.Size = new System.Drawing.Size(108, 74);
+            this.btnXemBan.TabIndex = 42;
+            this.btnXemBan.Text = "Xem";
+            this.btnXemBan.UseVisualStyleBackColor = false;
+            this.btnXemBan.Click += new System.EventHandler(this.btnXemBan_Click);
+            // 
+            // btnSuaBan
+            // 
+            this.btnSuaBan.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnSuaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaBan.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSuaBan.Location = new System.Drawing.Point(293, 37);
+            this.btnSuaBan.Name = "btnSuaBan";
+            this.btnSuaBan.Size = new System.Drawing.Size(108, 74);
+            this.btnSuaBan.TabIndex = 41;
+            this.btnSuaBan.Text = "Sửa";
+            this.btnSuaBan.UseVisualStyleBackColor = false;
+            this.btnSuaBan.Click += new System.EventHandler(this.btnSuaBan_Click);
+            // 
+            // btnXoaBan
+            // 
+            this.btnXoaBan.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnXoaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaBan.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnXoaBan.Location = new System.Drawing.Point(152, 37);
+            this.btnXoaBan.Name = "btnXoaBan";
+            this.btnXoaBan.Size = new System.Drawing.Size(108, 74);
+            this.btnXoaBan.TabIndex = 40;
+            this.btnXoaBan.Text = "Xóa";
+            this.btnXoaBan.UseVisualStyleBackColor = false;
+            this.btnXoaBan.Click += new System.EventHandler(this.btnXoaBan_Click);
+            // 
+            // btnThemBan
+            // 
+            this.btnThemBan.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnThemBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemBan.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnThemBan.Location = new System.Drawing.Point(16, 37);
+            this.btnThemBan.Name = "btnThemBan";
+            this.btnThemBan.Size = new System.Drawing.Size(108, 74);
+            this.btnThemBan.TabIndex = 39;
+            this.btnThemBan.Text = "Thêm";
+            this.btnThemBan.UseVisualStyleBackColor = false;
+            this.btnThemBan.Click += new System.EventHandler(this.btnThemBan_Click);
+            // 
+            // cbTableStatus
+            // 
+            this.cbTableStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbTableStatus.FormattingEnabled = true;
+            this.cbTableStatus.Location = new System.Drawing.Point(685, 319);
+            this.cbTableStatus.Name = "cbTableStatus";
+            this.cbTableStatus.Size = new System.Drawing.Size(302, 28);
+            this.cbTableStatus.TabIndex = 38;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label5.Location = new System.Drawing.Point(555, 317);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(119, 24);
+            this.label5.TabIndex = 37;
+            this.label5.Text = "Trạng Thái:";
+            // 
+            // txtTenBan
+            // 
+            this.txtTenBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenBan.Location = new System.Drawing.Point(685, 251);
+            this.txtTenBan.Name = "txtTenBan";
+            this.txtTenBan.Size = new System.Drawing.Size(303, 27);
+            this.txtTenBan.TabIndex = 36;
+            // 
+            // lbTenBan
+            // 
+            this.lbTenBan.AutoSize = true;
+            this.lbTenBan.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTenBan.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lbTenBan.Location = new System.Drawing.Point(555, 250);
+            this.lbTenBan.Name = "lbTenBan";
+            this.lbTenBan.Size = new System.Drawing.Size(96, 24);
+            this.lbTenBan.TabIndex = 35;
+            this.lbTenBan.Text = "Tên Bàn:";
+            // 
+            // txtIDBan
+            // 
+            this.txtIDBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDBan.Location = new System.Drawing.Point(685, 184);
+            this.txtIDBan.Name = "txtIDBan";
+            this.txtIDBan.ReadOnly = true;
+            this.txtIDBan.Size = new System.Drawing.Size(303, 27);
+            this.txtIDBan.TabIndex = 34;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label4.Location = new System.Drawing.Point(555, 182);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(36, 24);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "ID:";
+            // 
+            // dgvBan
+            // 
+            this.dgvBan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBan.Location = new System.Drawing.Point(16, 117);
+            this.dgvBan.Name = "dgvBan";
+            this.dgvBan.RowHeadersWidth = 51;
+            this.dgvBan.RowTemplate.Height = 24;
+            this.dgvBan.Size = new System.Drawing.Size(521, 418);
+            this.dgvBan.TabIndex = 32;
             // 
             // tpTaiKhoan
             // 
@@ -725,10 +726,11 @@
             // 
             // cbLoaiTK
             // 
+            this.cbLoaiTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbLoaiTK.FormattingEnabled = true;
             this.cbLoaiTK.Location = new System.Drawing.Point(713, 308);
             this.cbLoaiTK.Name = "cbLoaiTK";
-            this.cbLoaiTK.Size = new System.Drawing.Size(285, 24);
+            this.cbLoaiTK.Size = new System.Drawing.Size(285, 28);
             this.cbLoaiTK.TabIndex = 51;
             // 
             // label3
@@ -744,7 +746,7 @@
             // 
             // txtTenHienThi
             // 
-            this.txtTenHienThi.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenHienThi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenHienThi.Location = new System.Drawing.Point(713, 245);
             this.txtTenHienThi.Name = "txtTenHienThi";
             this.txtTenHienThi.Size = new System.Drawing.Size(285, 27);
@@ -763,7 +765,7 @@
             // 
             // txtTenTK
             // 
-            this.txtTenTK.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenTK.Location = new System.Drawing.Point(713, 177);
             this.txtTenTK.Name = "txtTenTK";
             this.txtTenTK.Size = new System.Drawing.Size(285, 27);
@@ -801,9 +803,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";
             this.tbAdmin.ResumeLayout(false);
-            this.tbBan.ResumeLayout(false);
-            this.tbBan.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvBan)).EndInit();
             this.tpDoanhThu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBill)).EndInit();
             this.tpThucAn.ResumeLayout(false);
@@ -813,6 +812,9 @@
             this.tpDanhMuc.ResumeLayout(false);
             this.tpDanhMuc.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).EndInit();
+            this.tbBan.ResumeLayout(false);
+            this.tbBan.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvBan)).EndInit();
             this.tpTaiKhoan.ResumeLayout(false);
             this.tpTaiKhoan.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTaiKhoan)).EndInit();
