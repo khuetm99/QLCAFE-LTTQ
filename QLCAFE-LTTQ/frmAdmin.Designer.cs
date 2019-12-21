@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(tcAdmin));
             this.tbAdmin = new System.Windows.Forms.TabControl();
             this.tpDoanhThu = new System.Windows.Forms.TabPage();
             this.btnThongKe = new System.Windows.Forms.Button();
@@ -114,7 +115,7 @@
             // 
             // tpDoanhThu
             // 
-            this.tpDoanhThu.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources.pngtree_literary_fresh_august_hello_there_image_10323;
+            this.tpDoanhThu.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources.pngtree_romantic_beauty_beautiful_background_gradient_background_blue_background_image_20387;
             this.tpDoanhThu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tpDoanhThu.Controls.Add(this.btnThongKe);
             this.tpDoanhThu.Controls.Add(this.dtpToDate);
@@ -797,8 +798,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1057, 599);
+            this.ClientSize = new System.Drawing.Size(1055, 599);
             this.Controls.Add(this.tbAdmin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "tcAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";

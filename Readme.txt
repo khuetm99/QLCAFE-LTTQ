@@ -1,0 +1,1 @@
+Chạy file CreateDB.cmd trước khi chạy setup nhé !! ^^

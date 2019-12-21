@@ -1,0 +1,13 @@
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\bin\Release\QLCAFE-LTTQ.exe.config
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\bin\Release\QLCAFE-LTTQ.exe
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\bin\Release\QLCAFE-LTTQ.pdb
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE-LTTQ.csprojAssemblyReference.cache
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.frmAbout.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.tcAdmin.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.frmDangNhap.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.frmQuanLyCaPhe.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.frmThongTinCaNhan.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE_LTTQ.Properties.Resources.resources
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE-LTTQ.csproj.GenerateResource.cache
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE-LTTQ.exe
+D:\QLCAFE-LTTQ\QLCAFE-LTTQ\obj\Release\QLCAFE-LTTQ.pdb

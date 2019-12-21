@@ -159,5 +159,8 @@
   <ItemGroup>
     <None Include="Resources\pngtree-romantic-beauty-beautiful-background-gradient-background-blue-background-image_20387.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAbout));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -55,10 +56,10 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(116, 50);
+            this.panel1.Location = new System.Drawing.Point(127, 72);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(568, 315);
+            this.panel1.Size = new System.Drawing.Size(540, 305);
             this.panel1.TabIndex = 4;
             // 
             // panel4
@@ -69,7 +70,7 @@
             this.panel4.Location = new System.Drawing.Point(4, 222);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(560, 90);
+            this.panel4.Size = new System.Drawing.Size(560, 83);
             this.panel4.TabIndex = 4;
             // 
             // label10
@@ -156,9 +157,9 @@
             this.label7.Location = new System.Drawing.Point(185, 57);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(305, 20);
+            this.label7.Size = new System.Drawing.Size(338, 20);
             this.label7.TabIndex = 3;
-            this.label7.Text = "17520391@gm.uit.edu.vn--DoanTheDuy";
+            this.label7.Text = "17520759@gm.uit.edu.vn--Nguyễn Văn Minh";
             // 
             // label6
             // 
@@ -167,9 +168,9 @@
             this.label6.Location = new System.Drawing.Point(185, 37);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(305, 20);
+            this.label6.Size = new System.Drawing.Size(314, 20);
             this.label6.TabIndex = 2;
-            this.label6.Text = "17520391@gm.uit.edu.vn--DoanTheDuy";
+            this.label6.Text = "17520391@gm.uit.edu.vn--Đoàn Thế Duy";
             // 
             // label5
             // 
@@ -209,7 +210,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.RosyBrown;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.Location = new System.Drawing.Point(333, 372);
+            this.button2.Location = new System.Drawing.Point(321, 382);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 65);
@@ -222,11 +223,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources.pngtree_romantic_beauty_beautiful_background_gradient_background_blue_background_image_20387;
+            this.BackgroundImage = global::QLCAFE_LTTQ.Properties.Resources._120;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 454);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
